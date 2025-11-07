@@ -5,27 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameJam</title>
     <link rel="icon" type="image/png" href="astrojam.png">
-    
-    <link rel="shortcut icon" href="astrojam.png" type="image/png"><!-- Ícone da aba do navegador -->
-    <link rel="stylesheet" href="styles.css"><!-- Link para o arquivo CSS externo -->
+    <link rel="shortcut icon" href="astrojam.png" type="image/png"> <!-- Ícone da aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
     <header>
         <div>
-            <img src="astrojam.png" alt="Logo do GameJam" width="50">
+            <img class="astrojamlogo" src="astrojam.png" alt="Logo do GameJam" width="50">
         </div>
-        <h1>Bem-vindo ao GameJam!</h1>
-        <div class="contato1">
-            <p>Contato</p>
-        </div>
-        <div class="inscrevase1">
-            <p>Inscreva-se</p>
-        </div>
+        <h1 class="bemvindo">GameJam</h1>
+        <nav class="contatoinscreva">
+            <a href="#">Contato</a>
+            <a href="#">Inscreva-se</a>
+        </nav>
     </header>
     <main>
-    <section>
-    <div>
-        <div>
+    <section class="caixasobreoevento">
+    <div class="tudosobre">
+        <div class="sobreoevento">
         <h4 class="Sobre">Sobre o Evento</h4>
             <p class="descrição-sobre">Se sua paixão por games é algo que você quer por a prova, vem participar do nosso GAME-JAM e mostre ao mundo suas habilidades e receber premios em dinheiro.</p>
             <button class="inscrevase2">Inscreva-se</button>
@@ -35,7 +32,7 @@
         </div>
     </div>
     </section>
-    <section>
+    <article class="categorias">
         <div class="Arcade">
             <h2>Arcade-Session</h2>
             <p>Individual</p>
@@ -46,7 +43,7 @@
                 <ol>2-Rank  /  $ 400</ol>
                 <ol>3-Rank  /  $ 200</ol>
             </ul>
-            <button class="inscrevas-arcade">Inscreva-se</button>
+            <button class="inscrevas-console">Inscreva-se</button>
         </div>
         <div class="Console">
             <h2>Console-Session</h2>
@@ -72,7 +69,7 @@
             </ul>
             <button class="inscrevas-console">Inscreva-se</button>
         </div>
-    </section>
+    </article>
     <section>
         <h2>Participe!</h2>
             <p>Junte-se a nós no próximo GameJam e mostre suas habilidades de desenvolvimento de jogos!</p>
